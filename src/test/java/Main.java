@@ -29,18 +29,18 @@ public class Main {
             if(probForSandu>probForDodon)
             {
                 prob = probForSandu-probForDodon;
-                System.out.println("Maia cistiga cu diferenta de " + prob + " %");
+                System.out.println("Maia winning " + prob + " %");
             } else if(probForDodon>probForSandu){
                 prob = probForDodon-probForSandu;
-                System.out.println("Dodon cistiga cu diferenta de " + prob + " %");
+                System.out.println("Dodon winnig" + prob + " %");
             }
             else {
-                System.out.println("Egal");
+                System.out.println("equal");
             }
 
         }
-        System.out.println("NR TOTAL DE VOTURI SANDU: " + sandu);
-        System.out.println("NR TOTAL DE VOTURI DODON " + dodon);
+        System.out.println("Sandu total: " + sandu);
+        System.out.println("Dodon total " + dodon);
 
     }
 }
